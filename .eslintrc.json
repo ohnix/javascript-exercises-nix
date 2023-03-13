@@ -7,5 +7,5 @@
   "rules": {
     "eol-last": ["error", "always"]
   },
-  "extends": ["some-other-config-you-use", "prettier"]
+  "extends": ["prettier"]
 }
