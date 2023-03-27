@@ -1,6 +1,5 @@
 const reverseString = function (string) {
-    return string.split("").reverse().join("");
-  };
-  
-  module.exports = reverseString;
-  
+  return string.split("").reverse().join("");
+};
+
+module.exports = reverseString;
