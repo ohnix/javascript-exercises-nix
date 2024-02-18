@@ -1,7 +1,6 @@
 const palindromes = function (string) {
-  let processedString = string.split("").reverse().join("").toLowerCase();
-  console.log(processedString);
-  return processedString === string;
+  let processedString = string.toLowerCase().replace(/[^a-z]/g, "");
+  return processedString.split("").reverse().join("") == processedString;
 };
 
 // Do not edit below this line
